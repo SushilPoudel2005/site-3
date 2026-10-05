@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Soil Stewards Farm</title>
+<meta name="description" content="Get in touch with the Soil Stewards student farm about volunteering, produce, media, or partnerships.">
+<meta name="theme-color" content="#2F5D3A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="assets/logo.png">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row wrap">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.png" alt="Soil Stewards Student Farm logo" class="brand-mark-img">
+      <span class="brand-text">
+        <span class="name">Soil Stewards</span>
+        <span class="sub">UNIVERSITY OF IDAHO</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="has-sub">
+          <a href="about.html">About</a>
+          <button class="sub-toggle" aria-label="Show About links" aria-expanded="false"></button>
+          <ul class="submenu">
+            <li><a href="about.html#story">Our story</a></li>
+            <li><a href="about.html#timeline">Timeline</a></li>
+            <li><a href="about.html#next">What's growing next</a></li>
+            <li><a href="about.html#director">Farm director</a></li>
+            <li><a href="about.html#videos">Life at the farm</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="events.html">Events</a>
+          <button class="sub-toggle" aria-label="Show Events links" aria-expanded="false"></button>
+          <ul class="submenu">
+            <li><a href="events.html#weekly">Tuesday Market</a></li>
+            <li><a href="events.html#weekly">Get Dirty Farm School</a></li>
+            <li><a href="events.html#calendar">Upcoming calendar</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="blog.html">Blog &amp; Gallery</a>
+          <button class="sub-toggle" aria-label="Show Blog &amp; Gallery links" aria-expanded="false"></button>
+          <ul class="submenu">
+            <li><a href="blog.html#gallery">Photo &amp; video gallery</a></li>
+            <li><a href="blog.html#journal">Farm journal</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="contact.html" class="active" aria-current="page">Contact</a>
+          <button class="sub-toggle" aria-label="Show Contact links" aria-expanded="false"></button>
+          <ul class="submenu">
+            <li><a href="contact.html#inquiry">Send a message</a></li>
+            <li><a href="contact.html#visit">Find the farm</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="volunteer.html" class="nav-cta">Get Dirty</a>
+          <button class="sub-toggle" aria-label="Show Get Dirty links" aria-expanded="false"></button>
+          <ul class="submenu">
+            <li><a href="volunteer.html#how">How it works</a></li>
+            <li><a href="volunteer.html#programs">Sessions &amp; work-for-share</a></li>
+            <li><a href="volunteer.html#signup">Volunteer sign-up</a></li>
+            <li><a href="volunteer.html#faq">FAQ</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="title-hero">
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Home</a> &nbsp;/&nbsp; Contact</p>
+    <h1 class="brush brush-rose">contact us</h1>
+    <p class="lede">Questions? Ideas? Just want to say hi? Whether you're curious about volunteering, buying produce, or partnering with the farm, we'd love to hear from you.</p>
+    <nav class="hub" aria-label="On this page">
+      <a href="#inquiry">Send a<br>message</a>
+      <a href="#visit">Find the farm</a>
+      <a href="mailto:soilstewards@uidaho.edu">Email us</a>
+    </nav>
+  </div>
+</section>
+
+<section>
+  <div class="wrap grid grid-2" style="gap:48px; align-items:start;">
+    <div class="form-card" id="inquiry">
+      <h2>Send an inquiry</h2>
+      <form class="stack" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-ajax data-success="Thanks for reaching out! We'll get back to you by email soon.">
+        <div class="field">
+          <label for="c-name">Name</label>
+          <input type="text" id="c-name" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="c-email">Email</label>
+          <input type="email" id="c-email" name="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="c-subject">What's this about?</label>
+          <select id="c-subject" name="subject">
+            <option>Volunteering</option>
+            <option>Buying produce / CSA</option>
+            <option>Media or photos</option>
+            <option>Partnership or donation</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="c-message">Message</label>
+          <textarea id="c-message" name="message" rows="5" required></textarea>
+        </div>
+        <p class="form-note">This form sends straight to the Soil Stewards team's inbox.</p>
+        <div class="form-status" role="status" aria-live="polite"></div>
+        <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send message <span class="arrow">&rarr;</span></button>
+      </form>
+    </div>
+
+    <div id="visit">
+      <h2>Reach us directly</h2>
+      <div class="grid" style="gap:16px;">
+        <div class="card c-green contact-item">
+          <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
+          <div>
+            <h3>Email the farm</h3>
+            <p><a href="mailto:soilstewards@uidaho.edu">soilstewards@uidaho.edu</a>
+              <button class="copy-btn" data-copy="soilstewards@uidaho.edu">Copy</button></p>
+          </div>
+        </div>
+        <div class="card c-sun contact-item">
+          <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div>
+          <div>
+            <h3>Visit the farm</h3>
+            <p>425 Farm Rd, Moscow, ID 83843<br>
+              <a href="https://www.google.com/maps/dir/?api=1&amp;destination=425+Farm+Rd,+Moscow,+ID+83843" target="_blank" rel="noopener">Get directions &rarr;</a></p>
+          </div>
+        </div>
+        <div class="card c-tomato contact-item">
+          <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></div>
+          <div>
+            <h3>Farm director — Iris Mayes</h3>
+            <p>Extension Educator, Horticulture and Small Farms<br>
+              <a href="mailto:imayes@uidaho.edu">imayes@uidaho.edu</a> &middot; <a href="tel:+12088832267">208-883-2267</a><br>
+              200 S Almon Street Ste 201, Moscow</p>
+          </div>
+        </div>
+      </div>
+      <div class="map-frame mt-md">
+        <iframe
+          title="Soil Stewards Farm location map"
+          src="https://www.google.com/maps?q=425+Farm+Rd,+Moscow,+ID+83843&amp;output=embed"
+          height="300"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="follow-bar">
+  <div class="wrap">
+    <div class="follow-links">
+      <a class="fb" href="https://www.facebook.com/SoilStewardsStudentFarm/" target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21h2.9z"/></svg></span>Follow</a>
+      <a class="ig" href="https://www.instagram.com/soilstewardsuidaho/" target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></span>Follow</a>
+      <a class="mail" href="mailto:soilstewards@uidaho.edu"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>Email us</a>
+    </div>
+    <a href="volunteer.html#signup" class="btn btn-teal">Help us grow!</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="assets/logo.png" alt="Soil Stewards Student Farm logo">
+        <p>A student-run, certified organic farm growing food, skills, and community in Moscow, Idaho since 2003.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="foot-links">
+          <li><a href="about.html">About the farm</a></li>
+          <li><a href="volunteer.html">Volunteer / Get Dirty</a></li>
+          <li><a href="events.html">Events &amp; market</a></li>
+          <li><a href="blog.html">Blog &amp; gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit &amp; contact</h4>
+        <p>425 Farm Rd, Moscow, ID 83843<br>University of Idaho Department of Soil &amp; Water Systems</p>
+        <p><a href="mailto:soilstewards@uidaho.edu">soilstewards@uidaho.edu</a><br>
+          Director: Iris Mayes &middot; <a href="tel:+12088832267">208-883-2267</a></p>
+      </div>
+      <div>
+        <h4>Follow along</h4>
+        <p>See what's growing this week.</p>
+        <div class="social-row">
+          <a class="fb" href="https://www.facebook.com/SoilStewardsStudentFarm/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21h2.9z"/></svg></a>
+          <a class="ig" href="https://www.instagram.com/soilstewardsuidaho/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; <span data-year>2026</span> Soil Stewards Student Farm, University of Idaho</span>
+      <span>Built by and for Soil Stewards volunteers 🌱</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

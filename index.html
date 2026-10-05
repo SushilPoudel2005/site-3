@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soil Stewards Farm | University of Idaho Student Farm</title>
+<meta name="description" content="Soil Stewards is the University of Idaho's student-run organic farm — grow with us through volunteering, Tuesday Market, and community events.">
+<meta name="theme-color" content="#2F5D3A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="assets/logo.png">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row wrap">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.png" alt="Soil Stewards Student Farm logo" class="brand-mark-img">
+      <span class="brand-text">
+        <span class="name">Soil Stewards</span>
+        <span class="sub">UNIVERSITY OF IDAHO</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+        <li class="has-sub">
+          <a href="about.html">About</a>
+          <button class="sub-toggle" aria-label="Show About links" aria-expanded="false"></button>
+          <ul class="submenu">
+            <li><a href="about.html#story">Our story</a></li>
+            <li><a href="about.html#timeline">Timeline</a></li>
+            <li><a href="about.html#next">What's growing next</a></li>
+            <li><a href="about.html#director">Farm director</a></li>
+            <li><a href="about.html#videos">Life at the farm</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="events.html">Events</a>
+          <button class="sub-toggle" aria-label="Show Events links" aria-expanded="false"></button>
+          <ul class="submenu">
+            <li><a href="events.html#weekly">Tuesday Market</a></li>
+            <li><a href="events.html#weekly">Get Dirty Farm School</a></li>
+            <li><a href="events.html#calendar">Upcoming calendar</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="blog.html">Blog &amp; Gallery</a>
+          <button class="sub-toggle" aria-label="Show Blog &amp; Gallery links" aria-expanded="false"></button>
+          <ul class="submenu">
+            <li><a href="blog.html#gallery">Photo &amp; video gallery</a></li>
+            <li><a href="blog.html#journal">Farm journal</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="contact.html">Contact</a>
+          <button class="sub-toggle" aria-label="Show Contact links" aria-expanded="false"></button>
+          <ul class="submenu">
+            <li><a href="contact.html#inquiry">Send a message</a></li>
+            <li><a href="contact.html#visit">Find the farm</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="volunteer.html" class="nav-cta">Get Dirty</a>
+          <button class="sub-toggle" aria-label="Show Get Dirty links" aria-expanded="false"></button>
+          <ul class="submenu">
+            <li><a href="volunteer.html#how">How it works</a></li>
+            <li><a href="volunteer.html#programs">Sessions &amp; work-for-share</a></li>
+            <li><a href="volunteer.html#signup">Volunteer sign-up</a></li>
+            <li><a href="volunteer.html#faq">FAQ</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="slider" aria-roledescription="carousel" aria-label="Farm highlights" style="padding:0;">
+  <div class="slide active">
+    <img src="assets/pumpkin-fest.jpg" alt="Pumpkins and visitors at Soil Stewards Pumpkin Fest" data-ph="Pumpkin Fest — pumpkins, people, fall fun" data-ph-align="right">
+    <div class="wrap slide-content">
+      <span class="kicker">Sat, Oct 10 &middot; 10 AM</span>
+      <h2 class="brush brush-sun">pumpkin fest</h2>
+      <p class="script">our fall harvest celebration, with the Student Sustainability Cooperative</p>
+      <a href="events.html#calendar" class="btn btn-teal">Event details</a>
+    </div>
+  </div>
+  <div class="slide">
+    <img src="assets/farm-wide.jpg" alt="Wide view of the Soil Stewards Student Farm fields and hoop house" data-ph="Wide shot of the whole farm or hoop house" data-ph-align="right">
+    <div class="wrap slide-content">
+      <span class="kicker">Thursdays &middot; 4–6 PM</span>
+      <h2 class="brush brush-tomato">get dirty</h2>
+      <p class="script">drop-in work sessions — no experience needed, everyone welcome</p>
+      <a href="volunteer.html#signup" class="btn btn-teal">Sign up to volunteer</a>
+    </div>
+  </div>
+  <div class="slide">
+    <img src="assets/market-stand.jpg" alt="Soil Stewards Tuesday Market stand with fresh produce" data-ph="Tuesday Market stand with produce on the table" data-ph-align="right">
+    <div class="wrap slide-content">
+      <span class="kicker">Every Tuesday in season</span>
+      <h2 class="brush brush-blue">tuesday market</h2>
+      <p class="script">fresh, certified organic produce straight from the farm</p>
+      <a href="events.html#weekly" class="btn btn-teal">Market info</a>
+    </div>
+  </div>
+  <button class="slider-arrow prev" aria-label="Previous slide">&#8249;</button>
+  <button class="slider-arrow next" aria-label="Next slide">&#8250;</button>
+  <div class="slider-dots"></div>
+</section>
+
+<section>
+  <div class="wrap split">
+    <div class="welcome-photo">
+      <img src="assets/volunteers.jpg" alt="Volunteers planting and harvesting at Soil Stewards Farm" data-ph="Volunteers working in the field">
+      <span class="tagline">🌻 Certified organic since 2020</span>
+    </div>
+    <div>
+      <h2 class="brush brush-green">welcome!</h2>
+      <p class="lede">Soil Stewards is the University of Idaho's student-run certified organic farm — three acres on Farm Road where students learn sustainable agriculture by doing the work themselves.</p>
+      <p>Started in 2003, the club is focused on local, organic and sustainable farming for students and the surrounding community. Members grow starts for the Farmer's Market and produce sold through CSA shares and on-farm sales — gaining hands-on experience in farming, project development, and organization along the way.</p>
+      <p>Participation is flexible, because the farm's needs are multifaceted. Everyone is welcome; everyone has something they can bring to the table.</p>
+      <div class="cta-row">
+        <a href="contact.html#visit" class="btn btn-teal">Find the farm</a>
+        <a href="about.html" class="btn btn-secondary">Our story</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="stats" style="margin-top:64px;">
+      <div class="stat c-green"><span class="num" data-count="2003">2003</span><span class="label">Year we broke ground</span></div>
+      <div class="stat c-sun"><span class="num" data-count="3">3</span><span class="label">Acres on Farm Road</span></div>
+      <div class="stat c-tomato"><span class="num" data-count="21" data-suffix="+">21+</span><span class="label">Years student-run</span></div>
+      <div class="stat c-rose"><span class="num" data-count="2020">2020</span><span class="label">Certified organic</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Certified organic</span><span>Student-run since 2003</span><span>Get Dirty Thursdays</span><span>Tuesday Market</span><span>Pumpkin Fest</span><span>Everyone welcome</span>
+    <span>Certified organic</span><span>Student-run since 2003</span><span>Get Dirty Thursdays</span><span>Tuesday Market</span><span>Pumpkin Fest</span><span>Everyone welcome</span>
+  </div>
+</div>
+
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Get involved</span>
+      <h2>There's a place for you at the farm</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card c-green">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-9"/><path d="M12 12C12 7 8.5 4 4 4c0 5 3.5 8 8 8z"/><path d="M12 14c0-4 3-7 8-7 0 4-3 7-8 7z"/></svg></div>
+        <h3>Certified organic</h3>
+        <p>Three acres near the U of I Sheep Center, certified organic since 2020 — a living classroom for sustainable market gardening.</p>
+        <a href="about.html" class="card-link">Our story &rarr;</a>
+      </div>
+      <div class="card c-tomato">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <h3>Get Dirty sessions</h3>
+        <p>Weekly Thursday work sessions where anyone can show up, learn the ropes, and lend a hand — no experience required.</p>
+        <a href="volunteer.html" class="card-link">Join a session &rarr;</a>
+      </div>
+      <div class="card c-sun">
+        <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h18l-2 10H5L3 10z"/><path d="M8 10l4-6 4 6"/><path d="M9 14v3M15 14v3M12 14v3"/></svg></div>
+        <h3>Tuesday Market</h3>
+        <p>Fresh, seasonal produce sold straight from the farm to the community, every week during the growing season.</p>
+        <a href="events.html" class="card-link">Market details &rarr;</a>
+      </div>
+    </div>
+
+    <div class="next-up mt-lg" data-next-weekly="4" data-end-hour="18">
+      <div class="icon-badge c-tomato" style="margin:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+      <div class="grow">
+        <span class="eyebrow" style="margin-bottom:2px;">Next Get Dirty session</span>
+        <div class="when">Thursday</div>
+        <p>4:00 – 6:00 PM at the farm &middot; all welcome, no experience needed</p>
+      </div>
+      <span class="countdown">This week</span>
+      <a href="volunteer.html#signup" class="btn btn-primary btn-sm">I'm in <span class="arrow">&rarr;</span></a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap split">
+    <div>
+      <h2 class="brush brush-blue">see the farm</h2>
+      <p class="lede">Take a walk through the fields with us — from the hoop house to the flower rows.</p>
+      <p>Three acres, dozens of crops, and a crew of students and neighbors who show up every week to keep it all growing. Want to see it in person? Come to a Thursday Get Dirty session.</p>
+      <div class="cta-row">
+        <a href="volunteer.html" class="btn btn-teal">Visit on a Thursday</a>
+        <a href="blog.html#gallery" class="btn btn-secondary">More videos</a>
+      </div>
+    </div>
+    <div class="feature-video">
+      <video src="assets/video-01.mp4" controls playsinline preload="metadata"></video>
+      <div class="title-bar"><img src="assets/logo.png" alt="">A walk through the farm</div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap">
+    <div class="section-head-row">
+      <div class="section-head">
+        <span class="eyebrow">From the farm</span>
+        <h2>Photos from the fields</h2>
+        <p class="lede mb-0">Tap any photo to see it full size.</p>
+      </div>
+      <a href="blog.html" class="btn btn-secondary">Full gallery <span class="arrow">&rarr;</span></a>
+    </div>
+    <div class="gallery">
+      <button class="g-item" data-type="photo" data-src="assets/photo-06.jpg" data-caption="Dark red dahlia in bloom" aria-label="View photo: Dark red dahlia in bloom">
+        <img src="assets/photo-06.jpg" alt="Dark red dahlia in bloom" loading="lazy">
+        <span class="cap">Dark red dahlia in bloom</span>
+      </button>
+      <button class="g-item" data-type="photo" data-src="assets/photo-07.jpg" data-caption="Squash ripening under broad green leaves" aria-label="View photo: Squash ripening under broad green leaves">
+        <img src="assets/photo-07.jpg" alt="Squash ripening under broad green leaves" loading="lazy">
+        <span class="cap">Squash ripening under broad green leaves</span>
+      </button>
+      <button class="g-item" data-type="photo" data-src="assets/photo-12.jpg" data-caption="Wheat against a clear blue sky" aria-label="View photo: Wheat against a clear blue sky">
+        <img src="assets/photo-12.jpg" alt="Wheat against a clear blue sky" loading="lazy">
+        <span class="cap">Wheat against a clear blue sky</span>
+      </button>
+      <button class="g-item" data-type="photo" data-src="assets/photo-10.jpg" data-caption="Magenta rose in full bloom" aria-label="View photo: Magenta rose in full bloom">
+        <img src="assets/photo-10.jpg" alt="Magenta rose in full bloom" loading="lazy">
+        <span class="cap">Magenta rose in full bloom</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section id="stay-updated">
+  <div class="wrap newsletter">
+    <h2>Stay updated</h2>
+    <p class="sub">Sign up for emails to stay up to date on market days, work sessions, and events!</p>
+    <form class="stack" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-ajax data-success="You're on the list! Watch your inbox for farm news. 🌱">
+      <input type="hidden" name="_subject" value="New Soil Stewards email signup">
+      <div class="field">
+        <label for="n-email">Email</label>
+        <input type="email" id="n-email" name="email" autocomplete="email" required>
+      </div>
+      <div class="row">
+        <div class="field">
+          <label for="n-first">First name</label>
+          <input type="text" id="n-first" name="first_name" autocomplete="given-name">
+        </div>
+        <div class="field">
+          <label for="n-last">Last name</label>
+          <input type="text" id="n-last" name="last_name" autocomplete="family-name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="field">
+          <label for="n-status">I am a...</label>
+          <select id="n-status" name="status">
+            <option>U of I student</option>
+            <option>U of I faculty/staff</option>
+            <option>Community member</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="n-heard">How did you hear about us? (optional)</label>
+          <input type="text" id="n-heard" name="heard_about_us">
+        </div>
+      </div>
+      <div class="form-status" role="status" aria-live="polite"></div>
+      <button type="submit" class="btn btn-teal" style="align-self:center;">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<div class="follow-bar">
+  <div class="wrap">
+    <div class="follow-links">
+      <a class="fb" href="https://www.facebook.com/SoilStewardsStudentFarm/" target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21h2.9z"/></svg></span>Follow</a>
+      <a class="ig" href="https://www.instagram.com/soilstewardsuidaho/" target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></span>Follow</a>
+      <a class="mail" href="mailto:soilstewards@uidaho.edu"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>Email us</a>
+    </div>
+    <a href="volunteer.html#signup" class="btn btn-teal">Help us grow!</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="assets/logo.png" alt="Soil Stewards Student Farm logo">
+        <p>A student-run, certified organic farm growing food, skills, and community in Moscow, Idaho since 2003.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="foot-links">
+          <li><a href="about.html">About the farm</a></li>
+          <li><a href="volunteer.html">Volunteer / Get Dirty</a></li>
+          <li><a href="events.html">Events &amp; market</a></li>
+          <li><a href="blog.html">Blog &amp; gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit &amp; contact</h4>
+        <p>425 Farm Rd, Moscow, ID 83843<br>University of Idaho Department of Soil &amp; Water Systems</p>
+        <p><a href="mailto:soilstewards@uidaho.edu">soilstewards@uidaho.edu</a><br>
+          Director: Iris Mayes &middot; <a href="tel:+12088832267">208-883-2267</a></p>
+      </div>
+      <div>
+        <h4>Follow along</h4>
+        <p>See what's growing this week.</p>
+        <div class="social-row">
+          <a class="fb" href="https://www.facebook.com/SoilStewardsStudentFarm/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21h2.9z"/></svg></a>
+          <a class="ig" href="https://www.instagram.com/soilstewardsuidaho/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; <span data-year>2026</span> Soil Stewards Student Farm, University of Idaho</span>
+      <span>Built by and for Soil Stewards volunteers 🌱</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
